@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Fitpro Gym
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Fitpro Gym! This React app is designed to help you explore a wide range of exercises, focusing on different categories and muscle groups. With practical examples, detailed exercise descriptions, related videos from YouTube, and more, Fitpro Gym is your ultimate fitness companion.
 
-## Available Scripts
+## Project Images
 
-In the project directory, you can run:
+### Home Page (Banner)
+<br/><br/> ![image](https://github.com/KARNB24/fitnessapp_fitprogym/assets/59581104/a9c0310c-13e6-46fe-becf-71c27cacb03e)
+<br/><br/>
+### Home Page (Muscle Group Selection)
+<br/><br/> ![image](https://github.com/KARNB24/fitnessapp_fitprogym/assets/59581104/9a9b7736-a2bb-45c2-b460-61e3c320ed86)
+<br/><br/>
+### Home Page (Showing Various Exercises)
+<br/><br/> ![image](https://github.com/KARNB24/fitnessapp_fitprogym/assets/59581104/9eff1ec6-ac82-48db-be41-c9c78d7743a7)
+<br/><br/>
+### Exercise Details (Banner)
+<br/><br/> ![image](https://github.com/KARNB24/fitnessapp_fitprogym/assets/59581104/5ba8e4d5-ee99-4d91-b71d-4c811439f52f)
+<br/><br/>
+### Exercise Details (Videos)
+<br/><br/> ![image](https://github.com/KARNB24/fitnessapp_fitprogym/assets/59581104/8f5a98db-27f6-442a-a59f-70e901c3ce0f)
+<br/><br/>
+### Exercise Details (Similar Target Muscle Exercises)
+<br/><br/> ![image](https://github.com/KARNB24/fitnessapp_fitprogym/assets/59581104/7ec04d06-680a-46e5-b3e1-748fc11c8a5a)
+<br/><br/>
+### Exercise Details (Similar Equipment Exercises)
+<br/><br/> ![image](https://github.com/KARNB24/fitnessapp_fitprogym/assets/59581104/27ab9d22-1ad6-4ff5-8a86-49a107ad7c41)
+<br/><br/>
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Exercise Categories:** Browse exercises by categories to target specific areas of your body.
+- **Muscle Groups:** Filter exercises based on specific muscle groups for targeted workouts.
+- **Extensive Exercise Library:** Explore over one thousand exercises with practical examples to guide your workouts.
+- **Pagination:** Convenient pagination for easy navigation through the exercise library.
+- **Exercise Details:** Get detailed information about each exercise, including descriptions and techniques.
+- **YouTube Integration:** Pull related videos from YouTube to supplement your workout routines.
+- **Similar Exercises:** Discover similar exercises to vary your workouts and keep things interesting.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- **Frontend:** Developed using React for a dynamic and responsive user interface.
+- **Styling:** Utilized MaterialUI for clean and intuitive styling.
+- **API:** Integrated with RapidAPI, specifically utilizing the "ExerciseDB" and "Youtube Search and Download" APIs for fetching exercise data and related videos.
+- **Hosting:** Deployed on Netlify for seamless hosting and accessibility.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Get Started
 
-### `npm run build`
+To get started with Fitpro Gym, simply [Visit the App](https://fitprogym.netlify.app/) and start exploring the vast array of exercises to enhance your fitness journey.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## To run on your local machine
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository: `git clone https://github.com/your-username/fitnessapp_fitprogym.git`
+2. Install dependencies: `npm install -i`
+3. Run Client: `npm start`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Note: Before Starting the client make sure to add your environment variables in the .env. There is a placeholder to enter your credentials.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
